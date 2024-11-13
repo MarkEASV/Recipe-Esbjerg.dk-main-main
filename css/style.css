@@ -1008,6 +1008,7 @@ body {
         grid-column: 1 / 6 span;
     }
 
+    /*Inspiration from chat gpt*/
     .recipe_instruction_two_li_left ol{
         list-style-type: none;
         list-style-position: outside;
@@ -1018,24 +1019,25 @@ body {
     }
 
     .recipe_instruction_two_li_left ol li.step_1::before {
-        content: 'Step 1';
+        content: "Step 1";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
         text-transform: uppercase;
         word-spacing: 5px;
     }
+    /*to here*/
 
     .recipe_instruction_two_li_left ol li.step_2::before {
-        content: 'Step 2';
+        content: "Step 2";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1044,11 +1046,11 @@ body {
     }
 
     .recipe_instruction_two_li_left ol li.step_3::before {
-        content: 'Step 3';
+        content: "Step 3";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1057,11 +1059,11 @@ body {
     }
 
     .recipe_instruction_two_li_left ol li.step_4::before {
-        content: 'Step 4';
+        content: "Step 4";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1070,11 +1072,11 @@ body {
     }
     
     .recipe_instruction_two_li_left ol li.step_5::before {
-        content: 'Step 5';
+        content: "Step 5";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1083,11 +1085,11 @@ body {
     }
 
     .recipe_instruction_two_li_left ol li.step_6::before {
-        content: 'Step 6';
+        content: "Step 6";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1096,11 +1098,11 @@ body {
     }
 
     .recipe_instruction_two_li_left ol li.step_7::before {
-        content: 'Step 7';
+        content: "Step 7";
         color: var(--primary-color);
         transform: rotate(270deg);
-        left: -10px;
-        top: 18px;
+        left: -18px;
+        top: 19px;
         position: absolute;
         font-weight: 500;
         font-size: 13px;
@@ -1357,15 +1359,16 @@ body {
 
     .content_area_cards_pasta_text_overlay h5 {
         color: var(--color-light);
-        padding: 20px 20px 0 20px;
         text-transform: uppercase;
-        font-size: 20px;    
+        font-size: 20px; 
+        height: 100px;
+        padding: 20px 20px 20px 20px;
     }
 
     .content_area_cards_pasta_text_overlay p{
         color: var(--color-light);
-        padding: 20px 20px 0 20px;
-
+        padding: 0 20px 0 20px;
+        height: 100px;
     }
 
     .content_area_cards_pasta_icon {
@@ -1374,6 +1377,7 @@ body {
         justify-content: space-between;
         padding: 0 5px 0 5px;
         margin-bottom: 5px;
+        height: 150px;
     }
 
     .content_area_cards_pasta_icon_merge {
@@ -1383,14 +1387,14 @@ body {
     .content_area_cards_pasta_icon i{
         color: var(--primary-color);
         font-size: 20px;
-        padding: 160px 0 10px 5px;
+        padding: 160px 0 0 5px;
     }
 
     .content_area_cards_pasta_icon p{
         color: var(--primary-color);
         font-size: 20px;
         font-weight: 500;
-        padding: 160px 5px 10px 5px;
+        padding: 160px 5px 0 5px;
     }
 
     .content_area_cards_pasta_text {
@@ -1409,7 +1413,9 @@ body {
         font-size: 20px;
         text-transform: uppercase;
         grid-column: 1 / 9 span;
-        padding: 25px 0 0 10px;
+        padding: 15px 0 15px 10px;
+        margin: auto 0 auto 0;
+    
     }
 
     .content_area_cards_pasta_p button {
