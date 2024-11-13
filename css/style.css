@@ -1375,8 +1375,7 @@ body {
         width: auto;
         display: flex;
         justify-content: space-between;
-        padding: 0 5px 0 5px;
-        margin-bottom: 5px;
+        padding: 0 5px 10px 5px;
         height: 150px;
     }
 
@@ -1387,14 +1386,14 @@ body {
     .content_area_cards_pasta_icon i{
         color: var(--primary-color);
         font-size: 20px;
-        padding: 160px 0 0 5px;
+        padding: 100px 0 0 5px;
     }
 
     .content_area_cards_pasta_icon p{
         color: var(--primary-color);
         font-size: 20px;
         font-weight: 500;
-        padding: 160px 5px 0 5px;
+        padding: 100px 5px 0 5px;
     }
 
     .content_area_cards_pasta_text {
