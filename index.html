@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <div class="menu-container">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="subpage.html">Recipe</a>
+                    </li>
+
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <p class="hero-text-small-header">Blah blah blah</p>
+                    <p class="hero-text-big-header">BLAH BLAH BLAH<span class="hero-text-bold"> bruh bruh</span></p>
+                    <p class="hero-text-small-header">BLAH BLAH BLAH</p>
+
+                </div>
+                <div class="hero-search">
+                    <input type="search" name="searchbar" class="search-box" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome">
+                </div>
+            </div>
+        </section>
+
+        <section class="todays_recipe">
+            <div class="todays_recipe_headline">
+                <h2>Recipe Today</h2>
+            </div>
+
+            <div class="todays_recipe_content">
+                <div class="todays_recipe_content_block">
+                    <div class="todays_recipe_content_block_image">
+                        <img src="Image/dora.jpg" alt="">
+                    </div>
+                    <div class="todays_recipe_content_block_text">
+                        <div class="todays_recipe_content_text_top">
+                            <h5>BLAH H5</h5>
+                            <p>BLAH p</p>
+                        </div>
+                        <div class="todays_recipe_content_text_bottom">
+                            <div class="todays_recipe_content_bottom_area">
+                                <div class="todays_recipe_content_bottom_area_left">
+                                    <p data-category="seafood">Seafood</p>
+                                    <p>Recipe</p>
+                                </div>
+                                <div class="todays_recipe_content_bottom_area_right">
+                                    <button>
+                                        <a href="#">How To</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="todays_recipe_content_block">
+                    <div class="todays_recipe_content_block_image">
+                        <img src="Image/kfc.png" alt="">
+                    </div>
+                    <div class="todays_recipe_content_block_text">
+                        <div class="todays_recipe_content_text_top">
+                            <h5>BLAH BLAH BLAH h5</h5>
+                            <p>blah p</p>
+                        </div>
+                        <div class="todays_recipe_content_text_bottom">
+                            <div class="todays_recipe_content_bottom_area_chicken">
+                                <div class="todays_recipe_content_bottom_area_left">
+                                    <p data-category="chicken">Chicken</p>
+                                    <p>Recipe</p>
+                                </div>
+                                <div class="todays_recipe_content_bottom_area_right">
+                                    <button>
+                                        <a href="#">How To</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="todays_recipe_content_block">
+                    <div class="todays_recipe_content_block_image">
+                        <img src="Image/cake.jpg" alt="">
+                    </div>
+                    <div class="todays_recipe_content_block_text">
+                        <div class="todays_recipe_content_text_top">
+                            <h5>Blah blah h5</h5>
+                            <p>blah p</p>
+                        </div>
+                        <div class="todays_recipe_content_text_bottom">
+                            <div class="todays_recipe_content_bottom_area_dessert">
+                                <div class="todays_recipe_content_bottom_area_left">
+                                    <p data-category="dessert">dessert</p>
+                                    <p>Recipe</p>
+                                </div>
+                                <div class="todays_recipe_content_bottom_area_right">
+                                    <button>
+                                        <a href="#">How To</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="todays_recipe_content_block">
+                    <div class="todays_recipe_content_block_image">
+                        <img src="Image/john.jpeg" alt="">
+                    </div>
+                    <div class="todays_recipe_content_block_text">
+                        <div class="todays_recipe_content_text_top">
+                            <h5>Blah blah h5</h5>
+                            <p>blah p</p>
+                        </div>
+                        <div class="todays_recipe_content_text_bottom">
+                            <div class="todays_recipe_content_bottom_area_beef">
+                                <div class="todays_recipe_content_bottom_area_left">
+                                    <p data-category="porkbeef">beef/pork</p>
+                                    <p>Recipe</p>
+                                </div>
+                                <div class="todays_recipe_content_bottom_area_right">
+                                    <button>
+                                        <a href="#">How To</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </section>  
+
+        <section class="categories">
+            <div class="categories_text_headline">
+                <h3>Categories</h3>
+            </div>
+            <div class="categories_box">
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-carrot" id="carrot-icon"></i>
+                    <h6 data-category="veggie">veggie</h6>
+                </div>  
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-fish" id="fish-icon"></i>
+                    <h6 data-category="seafood">seafood</h6>
+                </div>
+
+                <button class="category_box_block">
+                    <a href="pastaSite.html">
+                        <i class="fa-solid fa-bread-slice" id="pasta-icon"></i>
+                        <h6 data-category="pasta">pasta</h6>
+                    </a>
+                </button>
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-drumstick-bite" id="chicken-icon"></i>
+                    <h6 data-category="chicken">chicken</h6>
+                </div>
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-cookie-bite" id="cookie-icon"></i>
+                    <h6 data-category="snacks">snacks</h6>
+                </div>
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-cow" id="meat-icon"></i>
+                    <h6 data-category="porkbeef">beef/pork</h6>
+                </div>
+
+                <div class="category_box_block">
+                    <i class="fa-solid fa-cake-candles" id="dessert-icon"></i>
+                    <h6 data-category="dessert">dessert</h6>
+                </div>
+            </div>
+        </section>
+
+        <section class="content_image">
+            <div class="image_polygon">
+                <div class="content_image_text_box">
+                    
+                </div>
+                <p class="content_image_text_box_top">In the kitchen</p>
+                <h6 class="content_image_text_box_header">all-star kitchen</h6>
+                <p class="content_image_text_box_bottom">JIAHSIJAS UIASH USH IASHASH UAHSGBASI ABVGJSH SHASB AYHSB wwsedfg</p>
+                    
+            </div>
+            
+        </section>  
+
+        <section class="content_area">
+            <div class="content_area_headline">
+                <h5>in the kitchen</h5>
+            </div>
+
+            <div class="content_area_block">
+                <div class="content_area_block_text">
+                    <p class="content_area_block_text_top">In the kitchen<p>
+                    <h6 class="content_area_block_text_headline">How to plate as pro</h6>
+                    <p class="content_area_block_text_bottom">wedfgeiwoueqheioqhieoquieqhoieuoih qyouheiqgehjqkqebnqh eqi ehqieuiqheqeuiq nehoiqu</p>
+                    <button>
+                        <a href="#">plating</a>
+                    </button>
+                </div>
+                <div class="content_area_block_image">
+                    <img src="Image/t-bone-kvadrat-2-1280x600.jpg">
+                </div>
+            </div>
+
+            <div class="content_area_block">
+                <div class="content_area_block_image_2">
+                    <img src="Image/t-bone-kvadrat-2-1280x600.jpg">
+                </div>
+                <div class="content_area_block_text_2">
+                    <p class="content_area_block_text_top">In the kitchen<p>
+                    <h6 class="content_area_block_text_headline">Recipes are for...</h6>
+                    <p class="content_area_block_text_bottom">wedfgeiwoueqheioqhieoquieqhoieuoih qyouheiqgehjqkqebnqh eqi ehqieuiqheqeuiq nehoiqu</p>
+                     <button>
+                        <a href="#">Recipe</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content_area_block">
+                <div class="content_area_block_text">
+                    <p class="content_area_block_text_top">In the kitchen<p>
+                    <h6 class="content_area_block_text_headline">Meats - How to base</h6>
+                    <p class="content_area_block_text_bottom">wedfgeiwoueqheioqhieoquieqhoieuoih qyouheiqgehjqkqebnqh eqi ehqieuiqheqeuiq nehoiqu</p>
+                    <button>
+                        <a href="#">guides</a>
+                    </button>
+                </div>
+                <div class="content_area_block_image">
+                    <img src="Image/t-bone-kvadrat-2-1280x600.jpg">
+                </div>
+            </div>
+            
+
+        </section>
+
+        <footer class="footer_background">
+            <div class="footer_background_box">
+                <div class="footer_grid_text">
+                    <div class="footer_grid_text_yt"><i class="fa-brands fa-youtube"></i><p>Youtube</p></div>
+                    <div class="footer_grid_text_insta"><i class="fa-brands fa-instagram"></i><p>Instagram</p></div>
+                    <div class="footer_grid_text_fb"><i class="fa-brands fa-facebook"></i><p>Facebook</p></div>
+                </div>
+
+                <div class="footer_grid_text_two">
+                    <p class="footer_grid_text_text_two_home">Home</p>
+                    <p class="footer_grid_text_text_two_recipe">Recipe</p>
+                    <p class="footer_grid_text_text_two_about">About</p>
+                </div>
+
+                <div class="footer_grid_text_right">
+                    <a href="https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c">https://open.spotify.com/track/4gRA0i5sxx3jAhHaVjPnUN?si=aaba07b09223416c</a>
+                    <a href="https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK">https://open.spotify.com/album/6Xuu2z00jxRPZei4IJ9neK </a>
+                </div>
+            </div>
+        </footer>     
+    </div>   
+</html>
