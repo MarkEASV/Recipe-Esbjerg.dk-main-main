@@ -192,7 +192,7 @@ body {
 
 .search-box {
     background-color: transparent;
-    padding: 10px 40px 10px 20px;
+    padding: 10px 10px 10px 10px;
     border: var(--color-light) 1px solid;
     border-radius: 5px;
     outline: none;
@@ -249,6 +249,7 @@ body {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    height: 359px;
 }   
 
 .todays_recipe_content_text_top h5 {
@@ -274,11 +275,7 @@ body {
 
 .todays_recipe_content_block_image img {
     width: 292.5px;
-    height: 175px;
-    /*
-    margin: auto;
-    display: block;
-    */
+    height: 200px;
 }
 
 .todays_recipe_content_bottom_area {
@@ -500,7 +497,6 @@ body {
     background-color: var(--background-color-light);
     margin: 0 auto 0 auto;
     display: grid;
-    gap: var(--grid-gap);
     grid-template-columns: repeat(12, 1fr);
     position: relative;
 }
@@ -670,8 +666,16 @@ body {
     padding: 0 0 10px 0;
 }
 
+.footer_grid_text_insta p {
+    padding-left: 3.25px;
+}
+
 .footer_grid_text_fb {
     display: flex;
+}
+
+.footer_grid_text_fb p {
+    padding-left: 1.63px;
 }
 
 .footer_grid_text_two {
@@ -684,10 +688,19 @@ body {
 
 .footer_grid_text_text_two_home {
     padding: 0 0 10px 0;
+    text-decoration: none;
+    color: var(--color-dark);
 }
 
 .footer_grid_text_text_two_recipe{
     padding: 0 0 10px 0;
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
+.footer_grid_text_text_two_about{
+    text-decoration: none;
+    color: var(--color-dark);
 }
 
 .footer_grid_text_right{
@@ -1165,10 +1178,9 @@ body {
 
     .content_pasta_image_text{
         grid-column: 3 / 8 span;
-        background-color:var(--background-color-dark-bg);
+        background-color: rgba(11, 11, 11, 0.6);
         height: 100px;
         margin-top: 150px;
-        opacity: 0.8;
         border-radius: 5px;
     }
 
@@ -1178,6 +1190,7 @@ body {
         padding-top: 30px;
         font-size: 40px;
         text-transform: uppercase;
+        
     }
    
     .content_area_cards {
@@ -1185,10 +1198,11 @@ body {
         height: auto;
         background-color: var(--background-color-dark-bg);
         display: grid;
-        margin: 0 auto 0 auto;
-        padding-top: 100px;
+        margin: 50px auto 0 auto;
+        padding-top: 50px;
         gap: var(--grid-gap);
         grid-template-columns: repeat(12, 1fr);
+        border-top: 1px solid var(--color-light);
     }
 
     .content_area_cards_otm {
@@ -1196,11 +1210,11 @@ body {
         height: 400px;
         background-color: var(--color-light);
         margin-bottom: 100px;
+        border-radius: 5px 5px 5px 5px;
     }
     
     .content_area_cards_otm_img{
         height: 300px;
-        background-color: #9374eb;
         cursor: pointer;
         position: relative;
     }
@@ -1210,20 +1224,19 @@ body {
         width: 595px;
         height: 300px;
         display: block;
+        border-radius: 5px 5px 0 0;
     }
 
     .content_area_cards_otm_img_overlay {
         position: absolute;
         bottom: 0;
         background-color: rgba(11, 11, 11, 0.6);
-        /*
-        opacity: 0.6;
-        */
         overflow: hidden;
         width: 595px;
         height: 0;
         align-items: center;
         transition: .5s ease;
+        border-radius: 5px 5px 0 0;
     }
 
     .content_area_cards_otm_img:hover .content_area_cards_otm_img_overlay{
@@ -1239,13 +1252,13 @@ body {
 
     .content_area_cards_otm_img_overlay p{
         color: var(--color-light);
-        padding: 20px 40px 0 40px;
+        padding: 60px 40px 0 40px;
     }
 
     .content_area_cards_otm_icon {
         width: 595px;
         height: 60px;
-        margin-top: 80px;
+        margin-top: 50px;
         display: flex;
         justify-content: space-between;
         padding: 0 40px 0 40px;
@@ -1306,6 +1319,10 @@ body {
         padding: 10px 0 10px 10px;
     }
 
+    .content_area_cards_otm_text {
+        border-radius: 0 0 5px 5px;
+    }
+
     .content_area_cards_otm_text p {
         color: var(--category-pasta);
         font-size: 30px;
@@ -1335,19 +1352,11 @@ body {
         text-decoration: none; 
         color: var(--color-light);
     }
-
-    /*
-    .content_area_cards_box {
-        height: 300px;
-        width: 300px;
-        background-color: green;
-    }*/
     
     .content_area_cards_pasta_img {
         cursor: pointer;
         position: relative;
         height: 350px;
-        background-color: #9374eb;
     }
 
     .content_area_cards_pasta_img img {
@@ -1355,9 +1364,10 @@ body {
         width: 350px;
         height: 350px;
         display: block;
-
+        border-radius: 5px 5px 0 0;
     }
     
+    /*hover inspiration from w3bschools*/
 
     .content_area_cards_pasta_text_overlay {
         position: absolute;
@@ -1368,6 +1378,7 @@ body {
         height: 0;
         align-items: center;
         transition: .5s ease;
+        border-radius: 5px 5px 0 0;
     }
 
     
@@ -1416,6 +1427,8 @@ body {
 
     .content_area_cards_pasta_text {
         background-color: var(--color-light);
+        border-radius: 0 0 10px 10px;
+        box-sizing: content-box;
     }
 
     .content_area_cards_pasta_p {
